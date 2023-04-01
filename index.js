@@ -28,3 +28,20 @@ for (let i = 0; i <= 20; i++) {
     console.log(i + ' = bilangan ganjil');
   }
 }
+
+console.log('------------------------------')
+console.log('Exercise - LOOP No. 4')
+console.log('------------------------------')
+
+let count = 0;
+
+while (true) {
+  const result = confirm("Apakah anda mau mengulang?");
+  
+  if (result) {
+    count++;
+  } else {
+    alert(`Perulangan sudah dilakukan sebanyak ${count} kali`);
+    break;
+  }
+}
