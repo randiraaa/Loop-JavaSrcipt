@@ -16,3 +16,15 @@ for (let i = 1; i <= 10; i++) {
   nilaiAwal += 2;
   console.log(`Hasil penambahan ke-${i}: ${nilaiAwal}`);
 }
+
+console.log('------------------------------')
+console.log('Exercise - LOOP No. 3')
+console.log('------------------------------')
+
+for (let i = 0; i <= 20; i++) {
+  if (i % 2 === 0) {
+    console.log(i + ' = bilangan genap');
+  } else {
+    console.log(i + ' = bilangan ganjil');
+  }
+}
