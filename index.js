@@ -34,27 +34,27 @@ console.log('Exercise - LOOP No. 4')
 console.log('------------------------------')
 
 // Exercise - LOOP No. 4 diberi komen agar tidak terjadi tabrakan data, untuk mengeceknya "komen harus dihilangkan"
-// let count = 0;
+let count = 0;
 
-// while (true) {
-//   const result = confirm("Apakah anda mau mengulang?");
+while (true) {
+  const result = confirm("Apakah anda mau mengulang?");
   
-//   if (result) {
-//     count++;
-//   } else {
-//     alert(`Perulangan sudah dilakukan sebanyak ${count} kali`);
-//     break;
-//   }
-// }
-
-console.log('------------------------------')
-console.log('Exercise - LOOP No. 5')
-console.log('------------------------------')
-
-let jawaban = prompt("Sebutkan kepanjangan dari nama IB (Impact Byte)?");
-
-while (jawaban.toLowerCase() !== "impact byte") {
-  jawaban = prompt("Maaf, jawaban kamu salah. Silakan coba lagi: ");
+  if (result) {
+    count++;
+  } else {
+    alert(`Perulangan sudah dilakukan sebanyak ${count} kali`);
+    break;
+  }
 }
 
-alert("Selamat, jawaban kamu benar!");
+// console.log('------------------------------')
+// console.log('Exercise - LOOP No. 5')
+// console.log('------------------------------')
+
+// let jawaban = prompt("Sebutkan kepanjangan dari nama IB (Impact Byte)?");
+
+// while (jawaban.toLowerCase() !== "impact byte") {
+//   jawaban = prompt("Maaf, jawaban kamu salah. Silakan coba lagi: ");
+// }
+
+// alert("Selamat, jawaban kamu benar!");
