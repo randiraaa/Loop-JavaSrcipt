@@ -33,6 +33,7 @@ console.log('------------------------------')
 console.log('Exercise - LOOP No. 4')
 console.log('------------------------------')
 
+// Exercise - LOOP No. 4 diberi komen agar tidak terjadi tabrakan data
 // let count = 0;
 
 // while (true) {
